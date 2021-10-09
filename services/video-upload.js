@@ -2,7 +2,6 @@ const aws = require("aws-sdk");
 const multer = require("multer");
 const multerS3 = require("multer-s3");
 require('dotenv').config()
-
 var { ObjectId, ObjectID } = require("mongodb");
 const s3 = new aws.S3({
     accessKeyId: process.env.awsAccessKeyId,
